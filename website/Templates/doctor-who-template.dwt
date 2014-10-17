@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
-<html><!-- InstanceBegin template="/Templates/doctor-who-template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
 <meta charset="UTF-8">
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>The First Doctor</title>
-<!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>The Doctor Who Website</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     <td>[Banner]</td>
   </tr>
   <tr>
-    <td><a href="../../index.html">Home</a> | <a href="../index.html">The Doctors</a> | <a href="../../the-companions/index.html">The Companions</a> | <a href="../../the-villains/index.html">The Villains</a> | <a href="../../show-history/index.html">Show History</a></td>
+    <td><a href="../index.html">Home</a> | <a href="../the-doctors/index.html">The Doctors</a> | <a href="../the-companions/index.html">The Companions</a> | <a href="../the-villains/index.html">The Villains</a> | <a href="../show-history/index.html">Show History</a></td>
   </tr>
 </table>
 <table>
@@ -47,7 +47,7 @@
         <li>Mickey Smith</li>
         <li>Rose Tyler</li>
       </ul>    </td>
-    <td><!-- InstanceBeginEditable name="Page Content" -->[Page Specific Content]<!-- InstanceEndEditable --></td>
+    <td><!-- TemplateBeginEditable name="Page Content" -->[Page Specific Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
 <table>
@@ -68,4 +68,4 @@
   </tr>
 </table>
 </body>
-<!-- InstanceEnd --></html>
+</html>
