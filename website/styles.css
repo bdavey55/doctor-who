@@ -32,3 +32,23 @@ td {
 .reference-links {
 	width: 50%;
 }
+.imagerap {
+	float: left;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+	padding: 15px;
+	background-color: #999;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #F9FF42;
+	border-right-color: #FF6;
+	border-bottom-color: #CC3;
+	border-left-color: #FF6;
+}
