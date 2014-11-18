@@ -17,12 +17,14 @@
 <!-- TemplateParam name="Companions Banner" type="boolean" value="true" -->
 <!-- TemplateParam name="Villains Banner" type="boolean" value="false" -->
 <!-- TemplateParam name="Show History Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Doctors Page Banner" type="boolean" value="true" -->
+<!-- TemplateParam name="Doctors Pages Banner" type="boolean" value="true" -->
 </head>
 
 <body>
 <table class="general-width">
   <tr>
-    <td><img src="../images/banners/the-doctors.jpg" width="1000" height="200" alt="the doctors website banner"></td>
+    <td><!-- TemplateBeginIf cond="_document['Doctors Pages Banner']" --><img src="../images/banners/the-doctors.jpg" width="1000" height="200" alt="the doctors website banner"><!-- TemplateEndIf --></td>
   </tr>
   <tr>
     <td><a href="../index.html">Home</a> | <a href="../the-doctors/index.html">The Doctors</a> | <a href="../the-companions/index.html">The Companions</a> | <a href="../the-villains/index.html">The Villains</a> | <a href="../show-history/index.html">Show History</a></td>
@@ -100,9 +102,5 @@
     <td class="reference-links">[Reference Links]</td>
   </tr>
 </table>
-<!-- TemplateBeginIf cond="_document['Villains Banner']" -->Villains Banner<!-- TemplateEndIf -->
-<!-- TemplateBeginIf cond="_document['Doctors Banner']" --><img src="../images/banners/doctors-banner.jpg" width="1000" height="200" alt="doctors banner"><!-- TemplateEndIf -->
-<!-- TemplateBeginIf cond="_document['Companions Banner']" -->Companions Banner<!-- TemplateEndIf -->
-<!-- TemplateBeginIf cond="_document['Show History Banner']" -->Show History Banner<!-- TemplateEndIf -->
 </body>
 </html>
