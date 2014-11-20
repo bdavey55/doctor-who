@@ -19,12 +19,13 @@
 <!-- TemplateParam name="Show History Banner" type="boolean" value="false" -->
 <!-- TemplateParam name="Doctors Page Banner" type="boolean" value="true" -->
 <!-- TemplateParam name="Doctors Pages Banner" type="boolean" value="true" -->
+<!-- TemplateParam name="Doctor Pages Banner" type="boolean" value="true" -->
 </head>
 
 <body>
 <table class="general-width">
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['Doctors Pages Banner']" --><img src="../images/banners/the-doctors.jpg" width="1000" height="200" alt="the doctors website banner"><!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="_document['Home Page Banner']" --><img src="../images/banners/the-doctors.jpg" width="1000" height="200" alt="home page"><!-- TemplateEndIf --></td>
   </tr>
   <tr>
     <td><a href="../index.html">Home</a> | <a href="../the-doctors/index.html">The Doctors</a> | <a href="../the-companions/index.html">The Companions</a> | <a href="../the-villains/index.html">The Villains</a> | <a href="../show-history/index.html">Show History</a></td>
